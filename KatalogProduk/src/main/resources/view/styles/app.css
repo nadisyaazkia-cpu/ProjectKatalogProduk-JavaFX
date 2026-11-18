@@ -1,0 +1,61 @@
+.root {
+    -fx-font-family: "SansSerif";
+    -fx-font-size: 14px;
+    -fx-background-color: #7C0E44;
+}
+.header {
+    -fx-padding: 20 24;
+    -fx-background-color: #F7D794;
+}
+.title {
+    -fx-font-size: 26px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #18334d;
+}
+.muted {
+    -fx-text-fill: #64748b;
+    -fx-font-size: 12px;
+}
+.text-field, .combo-box {
+    -fx-padding: 7;
+    -fx-background-radius: 7;
+}
+.button-primary {
+    -fx-background-color: #FFE9A9; 
+    -fx-text-fill: #18334d;        
+    -fx-font-weight: bold;
+    -fx-padding: 10 24;
+    -fx-background-radius: 8;
+}
+.button-primary:hover {
+    -fx-background-color: #AA5E7A;
+}
+.katalog {
+    -fx-padding: 20 24;
+}
+.kartu-produk {
+    -fx-background-color: white;
+    -fx-background-radius: 12;
+    -fx-padding: 16;
+}
+.nama-produk {
+    -fx-font-weight: bold;
+}
+.scroll-pane, .scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
+.kartu-produk {
+    -fx-background-color: #F2DACE; /* <-- Ubah dari 'white' menjadi '#F2DACE' */
+    -fx-background-radius: 12;
+    -fx-padding: 16;
+}
+.kartu-produk .button {
+    -fx-background-color: #AA5E7A;
+    -fx-text-fill: white;
+    -fx-background-radius: 6;
+    -fx-padding: 5 12;
+    -fx-cursor: hand;
+}
+.kartu-produk .button:hover {
+    -fx-background-color: #7C0E44;
+}
